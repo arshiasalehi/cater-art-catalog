@@ -1,0 +1,21 @@
+{
+  "name": "cater-art",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "shopify": "shopify",
+    "theme:list": "shopify theme list",
+    "setup:draft": "./scripts/setup-draft-theme.sh",
+    "dev:draft": "./scripts/dev-draft-theme.sh",
+    "catalog:serve": "python3 -m http.server 4173 -d docs",
+    "crm:dev": "node --watch admin-crm/src/server.js",
+    "crm:start": "node admin-crm/src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@shopify/cli": "^3.92.1"
+  }
+}
